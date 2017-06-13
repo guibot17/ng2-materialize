@@ -5,11 +5,9 @@
     "module": "commonjs",
     "target": "es5",
     "baseUrl": "",
-    "types": [
-      "jasmine",
-      "jquery",
-      "materialize-css",
-      "node"
+    "skipLibCheck": true,
+    "typeRoots": [
+      "../node_modules/@types"
     ]
   },
   "files": [
